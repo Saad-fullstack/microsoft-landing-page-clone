@@ -95,7 +95,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 85vh;
+    height: 86vh;
     width: 100%;
     
 }
@@ -107,7 +107,7 @@
     align-items: flex-start;
     justify-content: center;
     max-width: 600px;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 .hero-content h1 {
@@ -134,6 +134,7 @@
     border-radius: 5px;
     font-size: 0.95rem;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .signup-button {
@@ -145,6 +146,7 @@
     font-size: 0.95rem;
     font-weight: 500;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .premium-button {
@@ -156,10 +158,60 @@
     margin-right: 8px;
     font-size: 0.9rem;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .button-container p span {
     font-size: 0.9rem;
     color: #051118;
     font-weight: 500;
+    cursor: pointer;
+}
+
+/* =========> Hero Navigational Bar <========= */
+.feature-bar {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    box-shadow: 2px 0 1px 1px rgba(0, 0, 0, 0.3);
+    position: sticky;
+}
+
+.feature-bar ul {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    width: 70%;
+}
+
+.feature-bar ul li {
+    list-style: none;
+    color: #031523;
+    font-weight: 500;
+}
+
+.tryfree-button {
+    background-color: #091f2c;
+    border: none;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.plan-button {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 8px 14px;
+    color: black;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-left: 5px;
+    cursor: pointer;
 }
