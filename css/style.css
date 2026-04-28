@@ -175,7 +175,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 60px;
-    box-shadow: 2px 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
     position: sticky;
 }
 
@@ -214,4 +214,80 @@
     font-weight: 500;
     margin-left: 5px;
     cursor: pointer;
+}
+
+/* ============ Microsoft Apps ============== */
+.microsoft-apps {
+    background: #fffcf9;
+    padding: 100px 60px;
+}
+
+.microsoft-apps .text {
+    padding: 0;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #3a3838;
+}
+
+.microsoft-apps h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #0e1726;
+}
+
+.app-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.app {
+    width: 32%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0,0.2);
+    /* text-align: center; */
+    border-radius: 25px;
+    position: relative;
+}
+
+.app-container img {
+    width: 100%;
+    height: 160px;
+    display: inline-block;
+    padding: 10px 10px 0;
+    border-radius: 25px;
+}
+.app h3, p, button {
+    padding: 0 30px;
+}
+
+.app h3 {
+    margin-top: 20px;
+    color: #0e1726;
+    font-size: 1.1rem;
+    font-weight: 500px;
+}
+
+.app p {
+    color: #17253d;
+    font-size: 1rem;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.app span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 7px;
+    position: relative;
+    left: 70px;
+}
+
+.app-container .app span,
+.app-container .app button {
+    position: absolute;
+    bottom: 20px;
 }
