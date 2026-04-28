@@ -177,6 +177,9 @@
     padding: 0 60px;
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
     position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1000;
 }
 
 .feature-bar ul {
@@ -290,4 +293,63 @@
 .app-container .app button {
     position: absolute;
     bottom: 20px;
+}
+
+/* ============= Free benefits ===============*/
+.free-benefits {
+    background-color: #fffcf9;
+    padding: 150px 60px;
+}
+
+
+.free-benefits .text {
+    padding: 0;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #3a3838;
+}
+
+.free-benefits h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #0e1726;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.information img {
+    width: 650px;
+    height: 450px;
+}
+
+.questions {
+    width: 30%;
+}
+
+.questions h3 {
+    margin: 30px 0;
+    color: #0e1726;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.questions p {
+    font-size: 0.95rem;
+    color: #17253d;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.questions i {
+    font-size: 1rem;
+    font-weight: 300px;
+    cursor: pointer;
 }
