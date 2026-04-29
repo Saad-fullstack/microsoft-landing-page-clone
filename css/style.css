@@ -24,11 +24,11 @@
     cursor: pointer;
 }
 
-.navbar-container ul{
-   list-style: none;
-   display: flex;
-   gap: 20px;
-   width: 55%;
+.navbar-container ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    width: 55%;
 }
 
 .navbar-container ul a {
@@ -66,7 +66,7 @@
 }
 
 .try-button {
-    background-color: black;  
+    background-color: black;
     color: white;
     border: none;
     padding: 7px;
@@ -97,7 +97,7 @@
     background-repeat: no-repeat;
     height: 86vh;
     width: 100%;
-    
+
 }
 
 .hero-content {
@@ -193,6 +193,7 @@
     list-style: none;
     color: #031523;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .tryfree-button {
@@ -250,7 +251,7 @@
     width: 32%;
     height: 400px;
     background-color: white;
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0,0.2);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
     /* text-align: center; */
     border-radius: 25px;
     position: relative;
@@ -263,7 +264,10 @@
     padding: 10px 10px 0;
     border-radius: 25px;
 }
-.app h3, p, button {
+
+.app h3,
+p,
+button {
     padding: 0 30px;
 }
 
@@ -298,7 +302,7 @@
 /* ============= Free benefits ===============*/
 .free-benefits {
     background-color: #fffcf9;
-    padding: 150px 60px;
+    padding: 120px 60px;
 }
 
 
@@ -352,4 +356,196 @@
     font-size: 1rem;
     font-weight: 300px;
     cursor: pointer;
+}
+
+/* ================== Microsoft Resources ================== */
+.microsoft-resources {
+    background: #fffcf9;
+    padding: 100px 60px;
+}
+
+.microsoft-resources .text {
+    padding: 0;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #3a3838;
+}
+
+.microsoft-resources h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #0e1726;
+}
+
+.resource-container {
+    display: flex;
+    gap: 30px;
+}
+
+.resource {
+    width: 32%;
+}
+
+.resource img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+
+.resource h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #0e1726;
+    padding-left: 15px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.resource h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: black;
+    border-radius: 5px;
+}
+
+.resource p {
+    padding: 0;
+    font-size: 0.95rem;
+    color: #17253d;
+    margin-top: 15px;
+    width: 90%;
+}
+
+/* ============== Mobile App ============== */
+.mobile-app {
+    background: #1e304f;
+    height: 90vh;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.mobile-app .text {
+    padding: 0;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #cdcccc;
+}
+
+.mobile-app .text2 {
+    padding: 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 35px;
+    color: #dceef8;
+}
+
+.mobile-app h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.mobile-app img {
+    border-radius: 15px;
+}
+
+/*  ======================== Featured Partners =======================*/
+.partner-section {
+    background-color: #fffcf9;
+    padding: 100px 60px;
+}
+
+.partner-section .text {
+    padding: 0;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #3a3838;
+}
+
+.partner-section h2 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #0e1726;
+}
+
+.partner-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.partner {
+    width: 50%;
+    height: 230px;
+    background: white;
+    padding: 25px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    position: relative;
+}
+
+.container img {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(216, 240, 248);
+}
+
+.text1 {
+    position: absolute;
+    font-size: 0.75rem;
+    top: 25px;
+    left: 70px;
+}
+
+.container h3 {
+    position: absolute;
+    top: 45px;
+    left: 99px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.text2 {
+    position: absolute;
+    top: 100px;
+    left: -5px;
+}
+
+.rating {
+    position: absolute;
+    bottom: 25px;
+    left: -5px;
+    font-size: 0.8rem;
+    font-weight: 600px;
+}
+
+.learn-more {
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgb(39, 18, 178);
+    font-weight: 600px;
+}
+
+.view-button {
+    padding: 0;
+    margin-top: 50px;
+
 }
